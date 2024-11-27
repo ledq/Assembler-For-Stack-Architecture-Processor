@@ -13,7 +13,7 @@ This repository contains a Python-based assembler for **Kant**, a custom-designe
 ### The Processor (Kant)
 
 The assembler is designed for **Kant**, a stack-based architecture with the following features:
-- **16 stack registers** with 2-byte word size.
+- 16 stack registers with 2-byte word size.
 - Instructions are 4 bytes, consisting of a 1-byte opcode and optional arguments.
 - PC-relative addressing for branch and jump instructions.
 - Separate data and instruction memory to prevent overwriting.
